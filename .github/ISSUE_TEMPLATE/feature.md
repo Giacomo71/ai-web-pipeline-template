@@ -1,19 +1,24 @@
 ---
-name: Feature
-about: Implement one scoped feature
+name: Modifica funzionale
+about: Proporre una funzione con ambito e criteri verificabili
 title: "feat: "
 labels: ""
 assignees: ""
 ---
 
-## Goal
+## Problema e risultato atteso
 
-## User story
+## Ambito e fuori ambito
 
-## Acceptance criteria
+## Requisiti e criteri di accettazione
+- [ ] Inserire un criterio verificabile
 
-- [ ]
+## Impatti e decisioni
+Dati, compatibilità, privacy, dipendenze, costi. ADR necessario o motivo della sua assenza.
 
-## Out of scope
+## Documenti da aggiornare
 
-## Notes
+## Verifica e ripristino
+
+## Responsabile, priorità e stato della proposta
+Una proposta non costituisce automaticamente una decisione accettata.
