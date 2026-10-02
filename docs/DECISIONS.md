@@ -1,12 +1,3 @@
-# Architecture Decision Log
+# Decisioni: riferimento al registro ufficiale
 
-Record important technical and product decisions here.
-
-## Template
-
-### ADR-000 — Decision title
-- Status: proposed
-- Context:
-- Decision:
-- Alternatives:
-- Consequences:
+Il precedente registro essenziale è sostituito da [DECISION_REGISTER](DECISION_REGISTER.md) e dai record in [ADR](ADR/README.md). Non mantenere decisioni duplicate in questo file.
