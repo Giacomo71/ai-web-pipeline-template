@@ -8,6 +8,7 @@ export const requiredFiles = [
   'docs/ARCHITECTURE.md', 'docs/DESIGN_SYSTEM.md', 'docs/CHANGE_POLICY.md',
   'docs/VERSIONING.md', 'docs/DECISION_REGISTER.md', 'docs/OPEN_QUESTIONS.md',
   'docs/ROADMAP.md', 'docs/TODO.md', 'docs/REVIEW.md', 'docs/ADR/README.md',
+  'docs/LLM_SELECTION.md',
   'docs/ADR/TEMPLATE.md', '.github/pull_request_template.md',
   '.github/ISSUE_TEMPLATE/feature.md', '.github/ISSUE_TEMPLATE/bug.md',
   '.github/ISSUE_TEMPLATE/structural-change.md', '.github/ISSUE_TEMPLATE/release.md',
@@ -21,7 +22,7 @@ const field = (text, name) => text.match(new RegExp(`^${name}:\\s*(.+)$`, 'm'))?
 export function checkGovernance(root) {
   root = resolve(root);
   const errors = [];
-  const read = path => readFileSync(resolve(root, path), 'utf8');
+  const read = path => readFileSync(resolve(root, path), 'utf8').replace(/\r\n/g, '\n');
   const inside = path => {
     const rel = relative(root, path);
     return rel !== '..' && !rel.startsWith(`..${sep}`) && !isAbsolute(rel);
