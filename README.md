@@ -32,6 +32,8 @@ CHANGELOG.md                 note delle versioni
 CLIENT_BRIEF conserva il nome esistente; DECISIONS rimanda al registro, senza duplicare le decisioni.
 
 ## Flusso
+Prima di ciascun incremento scegliere modello e ragionamento con la [guida LLM](docs/LLM_SELECTION.md), distinguendo raccomandazione e modello effettivamente disponibile.
+
 1. Adattare costituzione e responsabilità; compilare questionario e brief.
 2. Definire specifiche, criteri, architettura e design; risolvere le scelte strutturali con ADR.
 3. Pianificare roadmap e attività, classificare la modifica.

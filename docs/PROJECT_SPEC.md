@@ -2,7 +2,7 @@
 
 Stato: modello da compilare
 Responsabile: proprietario del progetto
-Ultima revisione: 2026-10-02
+Ultima revisione: 2026-10-05
 
 ## Overview
 TBD
@@ -69,3 +69,6 @@ Usare identificativi stabili, per esempio REQ-001, con descrizione, criterio ver
 
 ## Contratti e compatibilità
 Per formati persistenti/API/import/export definire versione, compatibilità e migrazione secondo [VERSIONING](VERSIONING.md), se applicabile.
+
+## Requisiti adottati della pipeline di sviluppo
+PIPE-LLM-001 — adottato il 2026-10-05 su richiesta del responsabile: scegliere il modello OpenAI in funzione dell'attività tramite [LLM_SELECTION](LLM_SELECTION.md). Criteri: matrice con motivazioni e ragionamento, fonti ufficiali datate, distinzione tra raccomandazione e modello effettivo, criteri di confronto ed escalation. La procedura non introduce funzioni AI nel prodotto né un routing API automatico. I requisiti del sito contrassegnati TBD restano da definire.

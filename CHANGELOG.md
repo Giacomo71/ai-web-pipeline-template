@@ -5,6 +5,7 @@ Le sezioni datate descrivono rilasci effettivi. Unreleased raccoglie le modifich
 ## [Unreleased]
 
 ### Aggiunto
+- Guida alla scelta dei modelli OpenAI per attività, criteri di confronto e istruzioni agli agenti, con ADR di adozione (2026-10-05).
 - Costituzione, gerarchia delle fonti e consolidamento delle decisioni dalla chat al repository.
 - Politica delle modifiche, roadmap, questioni aperte e versionamento del prodotto e dei contratti.
 - Registro ADR, modello, prima decisione di governo ed esempio sintetico.
