@@ -32,6 +32,16 @@ test('official documents also pass with Windows CRLF line endings', t => {
   }
   assert.deepEqual(checkGovernance(root), []);
 });
+
+test('reusable improvement guide is required, including revision metadata', t => {
+  assert.ok(requiredFiles.includes('docs/IMPROVEMENT_REVIEW.md'));
+  const missing = fixture(t);
+  rmSync(resolve(missing, 'docs/IMPROVEMENT_REVIEW.md'));
+  assert.ok(checkGovernance(missing).includes('Missing required file: docs/IMPROVEMENT_REVIEW.md'));
+  const incomplete = fixture(t);
+  update(incomplete, 'docs/IMPROVEMENT_REVIEW.md', text => text.replace(/^Responsabile:.*\n/m, ''));
+  assert.ok(checkGovernance(incomplete).includes('docs/IMPROVEMENT_REVIEW.md: missing Responsabile'));
+});
 test('broken local links and missing official files fail', t => {
   const root = fixture(t);
   update(root, 'README.md', text => `${text}\n[Broken](docs/missing.md)\n`);

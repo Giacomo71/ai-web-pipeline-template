@@ -2,7 +2,7 @@
 
 Stato: modello operativo
 Responsabile: revisore e responsabile del progetto
-Ultima revisione: 2026-10-02
+Ultima revisione: 2026-10-14
 
 ## Modifica
 - [ ] Motivo, livello, ambito e fuori ambito chiari.
@@ -12,6 +12,8 @@ Ultima revisione: 2026-10-02
 - [ ] ADR accettato per decisioni strutturali, oppure assenza motivata.
 - [ ] Fonti ufficiali aggiornate e decisioni della chat consolidate.
 - [ ] Nessuna modifica estranea o segreto inserito.
+- [ ] Se successiva a prove/feedback: valutazione in IMPROVEMENT_REVIEW o documento derivato, con evidenze e priorità (oppure assenza di proposte motivata); nuove idee distinte da requisiti adottati e autorizzazioni.
+- [ ] Eventuali risposte del cliente consolidate fedelmente, senza interpretare interesse o silenzio come approvazione; invii effettuati solo se richiesti.
 
 ## Verifiche
 - [ ] docs:check, lint, typecheck, test e build superati.
