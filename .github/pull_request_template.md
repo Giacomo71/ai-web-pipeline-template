@@ -15,6 +15,7 @@ Dati e migrazioni, compatibilità, privacy, dipendenze, costi. Motivare «non ap
 - Documenti aggiornati e decisioni consolidate dalla chat:
 - CHANGELOG / versione prevista (se pertinente):
 - Questioni ancora aperte:
+- Valutazione consigli/migliorie dopo le prove (IMPROVEMENT_REVIEW o documento derivato; oppure motivo di non applicabilità), risposte e autorizzazioni distinte:
 
 ## Verifiche
 - [ ] npm run docs:check

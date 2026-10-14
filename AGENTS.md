@@ -10,6 +10,8 @@ La chat è un tavolo di lavoro, il repository è l'archivio ufficiale. Consolida
 Prima di un incremento consultare [LLM_SELECTION](docs/LLM_SELECTION.md), classificare l'attività e motivare modello e ragionamento raccomandati. Rispettare un modello esplicitamente richiesto dal responsabile. Distinguere raccomandazione e modello effettivamente usato; non dichiarare un cambio che non è avvenuto. Se la selezione non è disponibile, riportare il limite e procedere con il modello corrente entro il compito autorizzato. Verificare le fonti aggiornate quando la scelta dipende da disponibilità o capacità correnti; valutare un modello più potente in base a criteri falliti, mantenendo tutti i gate di revisione. La guida non autorizza nuove integrazioni API o spese automatiche.
 
 ## Modifiche
+Prima di pianificare l'incremento successivo a una prova, usare [IMPROVEMENT_REVIEW](docs/IMPROVEMENT_REVIEW.md): distinguere difetti/requisiti già adottati da nuove proposte, motivare fino a tre priorità e preparare una scheda di riscontro comprensibile. Nessun consiglio forzato senza evidenze. Registrare fonte, risposta e decisione; interesse non autorizza sviluppo o costi. Non importare dati di altri clienti e non inviare proposte senza richiesta esplicita. Consolidare le scelte autorizzate nelle specifiche e nella pianificazione, mantenendo questioni non risolte come tali.
+
 - Non inventare funzionalità o ampliare il perimetro senza richiesta.
 - Classificare il cambiamento e mantenerlo limitato al compito.
 - Risolvere autonomamente i dettagli reversibili già delegati.

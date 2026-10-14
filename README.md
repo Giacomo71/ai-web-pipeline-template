@@ -23,6 +23,7 @@ docs/
   ROADMAP.md                 risultati e priorità
   TODO.md                    attività operative
   OPEN_QUESTIONS.md           dubbi e ipotesi
+  IMPROVEMENT_REVIEW.md       consigli, priorità e riscontro cliente
   REVIEW.md                  verifica e rilascio
   examples/                  esempi non adottati
 AGENTS.md                    istruzioni agli agenti
@@ -36,11 +37,12 @@ Prima di ciascun incremento scegliere modello e ragionamento con la [guida LLM](
 
 1. Adattare costituzione e responsabilità; compilare questionario e brief.
 2. Definire specifiche, criteri, architettura e design; risolvere le scelte strutturali con ADR.
-3. Pianificare roadmap e attività, classificare la modifica.
-4. Sviluppare un incremento su branch dedicato e consolidare le decisioni emerse in chat.
-5. Aggiornare documenti e Unreleased; eseguire npm run check e revisione pertinente.
-6. Aprire PR, revisionare e integrare dopo controlli superati.
-7. Preparare versione, note e tag; distribuire quando autorizzato.
+3. Dopo le prove di un prototipo/incremento, valutare [consigli finali e migliorie](docs/IMPROVEMENT_REVIEW.md): evidenze, fino a tre priorità motivate e riscontro del cliente. Anche nessuna proposta è un esito valido; interesse non significa autorizzazione.
+4. Consolidare le scelte autorizzate nelle specifiche; pianificare roadmap e attività, classificare la modifica. Non attivare servizi o inviare comunicazioni automaticamente.
+5. Sviluppare un incremento su branch dedicato e consolidare le decisioni emerse in chat.
+6. Aggiornare documenti e Unreleased; eseguire npm run check e revisione pertinente.
+7. Aprire PR, revisionare e integrare dopo controlli superati.
+8. Preparare versione, note e tag; distribuire quando autorizzato.
 
 ## Comandi
 Installare con npm ci usando il lockfile versionato; usare npm install quando si modificano le dipendenze e revisionare il lockfile aggiornato. Usare npm run dev per lo sviluppo e npm run check per il quality gate. npm run docs:check controlla collegamenti locali, documenti richiesti, ADR/registro e coerenza della versione con il lockfile quando presente.
@@ -52,6 +54,7 @@ La CI verifica la struttura, non la correttezza delle decisioni né la reale aut
 - [ADR](docs/ADR/README.md)
 - [Versionamento](docs/VERSIONING.md)
 - [Revisione](docs/REVIEW.md)
+- [Consigli e migliorie riutilizzabili](docs/IMPROVEMENT_REVIEW.md)
 - [Esempio completo sintetico](docs/examples/ADR-EXAMPLE.md)
 
 Nessun provider di hosting o deploy è configurato di default. Le regole del template non configurano automaticamente protezioni del branch su GitHub.

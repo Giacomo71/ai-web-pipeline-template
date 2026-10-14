@@ -5,6 +5,7 @@ Le sezioni datate descrivono rilasci effettivi. Unreleased raccoglie le modifich
 ## [Unreleased]
 
 ### Aggiunto
+- Fase riutilizzabile di consigli finali e migliorie dopo le prove: guida, scheda cliente, priorità e registro degli esiti, integrati in pianificazione/review e controllo documentale con test e ADR-0003 (2026-10-14). Nessun invio o sviluppo automatico.
 - Guida alla scelta dei modelli OpenAI per attività, criteri di confronto e istruzioni agli agenti, con ADR di adozione (2026-10-05).
 - Costituzione, gerarchia delle fonti e consolidamento delle decisioni dalla chat al repository.
 - Politica delle modifiche, roadmap, questioni aperte e versionamento del prodotto e dei contratti.

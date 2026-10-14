@@ -2,7 +2,7 @@
 
 Stato: adottato per il template
 Responsabile: proprietario del progetto
-Ultima revisione: 2026-10-02
+Ultima revisione: 2026-10-14
 
 ## Classificazione
 | Livello | Esempio | Documenti e autorizzazione |
@@ -21,6 +21,8 @@ Ultima revisione: 2026-10-02
 7. Aprire una PR, raccogliere revisione e integrare dopo i controlli. Preparare un rilascio distinto dal merge.
 
 ## Scheda minima
+Per consigli emersi dalle prove usare [IMPROVEMENT_REVIEW](IMPROVEMENT_REVIEW.md) prima del prossimo incremento. Il registro delle proposte alimenta questo ciclo solo dopo le decisioni necessarie; un difetto o dettaglio già delegato conserva la propria classificazione, senza richieste di approvazione ridondanti.
+
 - Motivo e risultato atteso.
 - Livello: ordinaria / funzionale / strutturale.
 - Requisiti e criteri di accettazione coinvolti.

@@ -2,7 +2,7 @@
 
 Stato: modello da adattare
 Responsabile: proprietario del progetto
-Ultima revisione: 2026-10-02
+Ultima revisione: 2026-10-14
 
 Questa lista riguarda il progetto derivato: non certifica che il template abbia già completato queste attività. Priorità e risultati sono in [ROADMAP](ROADMAP.md).
 
@@ -11,6 +11,8 @@ Questa lista riguarda il progetto derivato: non certifica che il template abbia 
 - [ ] Definire PROJECT_SPEC con ID e criteri verificabili.
 - [ ] Risolvere questioni aperte e accettare gli ADR strutturali necessari.
 - [ ] Aggiornare ARCHITECTURE e DESIGN_SYSTEM.
+- [ ] Dopo le prove, compilare IMPROVEMENT_REVIEW con evidenze, priorità consigliate e riscontro del cliente (oppure motivare l'assenza di nuove proposte).
+- [ ] Consolidare le sole migliorie autorizzate nelle specifiche/roadmap; lasciare quelle dubbie in OPEN_QUESTIONS senza attivazioni o invii automatici.
 - [ ] Sviluppare il primo incremento, con test pertinenti.
 - [ ] Consolidare le decisioni della chat nei documenti ufficiali.
 - [ ] Aggiornare Unreleased ed eseguire npm run check.
